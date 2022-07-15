@@ -1,0 +1,19 @@
+html {
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	color: white;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+}
+
+header {
+	font-size: 3.125rem;
+}
+
+.download-link {
+	color: aquamarine;
+	font-size: 1rem;
+}
