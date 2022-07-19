@@ -19,10 +19,20 @@ h2 {
 }
 
 img {
-	width: auto;
+	max-width: 100%;
 }
 
 .download-link {
 	color: aquamarine;
 	font-size: 1rem;
+}
+
+@media print, only screen and (max-width: 550px) {
+	picture {
+		min-width: 492px;
+	}
+	
+	body {
+		min-width: 525px;
+	}
 }
