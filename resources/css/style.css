@@ -18,21 +18,29 @@ h2 {
 	font-size: 2.625rem;
 }
 
-img {
-	max-width: 100%;
-}
-
 .download-link {
 	color: aquamarine;
 	font-size: 1rem;
 }
 
-@media print, only screen and (max-width: 550px) {
-	picture {
+#camp {
+	max-width: 100%;
+}
+
+#logo {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+	body {
+		min-width: 530px;
+	}
+	
+	#camp {
 		min-width: 492px;
 	}
 	
-	body {
-		min-width: 525px;
+	#announcement {
+		min-width: 490px;
 	}
 }
